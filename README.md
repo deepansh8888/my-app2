@@ -1,7 +1,33 @@
-# Project Name
+# Task Manager Web Application
 
 ## Introduction
-Brief introduction about the project.
+
+This project is a full-stack application developed as part of the W3villa Technologies Assignment. It allows users to register, log in, and manage tasks efficiently.
+
+## Features
+
+### Backend Development:
+
+- Built with Node.js and Express.js.
+- JWT used for user authentication and authorization.
+- API endpoints for user registration, login, and task management.
+
+### Database Setup:
+
+- MongoDB chosen for data storage.
+- Schema designed to store user information and tasks.
+
+### Frontend Development:
+
+- Developed using React.js with responsive design.
+- Features user registration, login forms, and task management pages.
+
+### Integration:
+
+- Frontend integrated with backend APIs for data manipulation.
+- User authentication ensures secure access to tasks.
+
+
 
 ## Getting Started
 Follow these steps to set up and run the project on your local machine.
