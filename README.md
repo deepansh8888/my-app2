@@ -18,7 +18,7 @@ Follow these steps to set up and run the project on your local machine.
 #### Mac
 - Verify that MongoDB is installed:
   ```bash
-  mongo --version
+  mongod --version
   ```
 - If MongoDB is not installed, follow the installation instructions on the [MongoDB website](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/).
 
@@ -33,8 +33,10 @@ Follow these steps to set up and run the project on your local machine.
 #### Mac
 - Start MongoDB service:
   ```bash
-  brew services start mongodb-community@4.4
+  brew services start mongodb-community@6.0
   ```
+  Here, put the version on your pc
+  
 - Connect to MongoDB:
   ```bash
   mongo
