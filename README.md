@@ -52,13 +52,6 @@ Follow these steps to set up and run the project on your local machine.
 4. Enter "users" as the Collection Name.
 5. Click on "Create Database".
 
-Alternatively, you can create the database and collection using terminal commands:
-
-```bash
-mongo
-use w3villa
-db.createCollection("users")
-```
 
 ### Running the Project
 1. Open a terminal window and navigate to the `backend` directory.
