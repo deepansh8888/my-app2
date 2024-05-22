@@ -31,17 +31,17 @@ Follow these steps to set up and run the project on your local machine.
   Here, put the version on your pc
 
 #### Windows
-- Start MongoDB service (replace `<path>` with the path where MongoDB is installed):
+- Start MongoDB service:
   ```bash
   net start MongoDB
   ```
 
 ### Creating Database and Collection
 1. Open MongoDB Compass.
-2. Click on "Create Database".
-3. Enter "w3villa" as the Database Name.
-4. Enter "users" as the Collection Name.
-5. Click on "Create Database".
+2. Click on `Create Database`.
+3. Enter `w3villa` as the Database Name.
+4. Enter `users` as the Collection Name.
+5. Click on `Create Database`.
 
 
 ### Running the Project
@@ -52,7 +52,7 @@ Follow these steps to set up and run the project on your local machine.
    ```
 3. Start the backend server:
    ```bash
-   npm start
+   node server.js
    ```
 4. Open a new terminal window and navigate to the project directory.
 5. Navigate to the `frontend` directory.
@@ -80,6 +80,4 @@ Install these dependencies using the following command:
 ```bash
 npm install express bcryptjs jsonwebtoken cors cookie-parser body-parser mongoose
 ```
-
-## License
-This project is licensed under the [MIT License](LICENSE).
+## Deployment Link: ``
