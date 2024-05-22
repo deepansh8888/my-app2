@@ -15,14 +15,7 @@ Follow these steps to set up and run the project on your local machine.
 2. Open a terminal window and navigate to the project directory.
 
 ### Setting up MongoDB
-#### Mac
-- Verify that MongoDB is installed:
-  ```bash
-  mongod --version
-  ```
-- If MongoDB is not installed, follow the installation instructions on the [MongoDB website](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/).
 
-#### Windows
 - Verify that MongoDB is installed:
   ```bash
   mongod --version
