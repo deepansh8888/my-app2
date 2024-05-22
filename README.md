@@ -38,7 +38,7 @@ Follow these steps to set up and run the project on your local machine.
 #### Windows
 - Start MongoDB service (replace `<path>` with the path where MongoDB is installed):
   ```bash
-  "<path>\MongoDB\Server\4.4\bin\mongod.exe" --dbpath="<path>\MongoDB\data\db"
+  net start MongoDB
   ```
 - Connect to MongoDB (replace `<path>` with the path where MongoDB is installed):
   ```bash
