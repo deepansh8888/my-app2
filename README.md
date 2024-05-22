@@ -29,20 +29,11 @@ Follow these steps to set up and run the project on your local machine.
   brew services start mongodb-community@6.0
   ```
   Here, put the version on your pc
-  
-- Connect to MongoDB:
-  ```bash
-  mongo
-  ```
 
 #### Windows
 - Start MongoDB service (replace `<path>` with the path where MongoDB is installed):
   ```bash
   net start MongoDB
-  ```
-- Connect to MongoDB (replace `<path>` with the path where MongoDB is installed):
-  ```bash
-  "<path>\MongoDB\Server\4.4\bin\mongo.exe"
   ```
 
 ### Creating Database and Collection
